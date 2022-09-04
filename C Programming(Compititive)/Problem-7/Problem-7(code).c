@@ -1,5 +1,5 @@
 #include<stdio.h>
-main() {
+int main() {
     float p,p_in_liter,oil_supplied,oil_left; // here we prefer to use float because we may expect decimal values in the answer
     //p - number of gallons Ravi brings from village
     // 1 gallon = 3.785 liters
@@ -14,4 +14,5 @@ main() {
    } else {
         printf("The oil left with Ravi = 0 liters");
    }
+return 0;
 }
