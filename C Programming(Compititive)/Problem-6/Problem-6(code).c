@@ -17,5 +17,5 @@ int main() {
     } else {
             printf("No, it is not possible for the group to register together");
     }
-
+return 0;
 }
